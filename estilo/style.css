@@ -14,44 +14,30 @@
 *{
     margin: 0px;
     padding:0px;
-    box-sizing: border-box;
 }
-body{ height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor2);
+body{
+    background-color: var(--cor0);
 }
 header {
-background-color:var(--cor2);
+background-color:var(--cor0);
 }
 header h1{
     font-size: 50px;
     font-family:'cabeçalho', sans-serif;
     text-align: center;
-    color:var(--cor0);
+    color:var(--cor3);
 }
 header p{
     font-size: 20px;
     text-align: center;
-    color: var(--cor0);
+    color: var(--cor3);
 }
-nav{  
-    display: flex;
-    flex-direction: column;
-    width:300px;
-    padding: 15px;
-    border:1px solidi skyblue;
-    border-radius: 5px;
-    background-color: var(--cor2);
-}
-nav a{
-    color:rgb(164, 164, 164);
-    text-decoration: none;
-}
-
-main{ border-radius: 5px;
-   background-color:  rgb(255, 255, 255);
+main{
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 50px;
+    min-width:400px;
+    max-width:500px;
 }
 button{
     margin: auto;
@@ -75,6 +61,7 @@ button.bnt{
 button:hover{
     background-color: rgba(255, 255, 255, 0.082);
 }
-nav a:hover{
-    color: #000000;
+button a{
+    text-decoration: none;
+    color: var(--cor3);
 }
